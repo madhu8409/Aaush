@@ -17,19 +17,36 @@
 
 <body>
     <!-- start of header -->
-    <div class="header">
-        <div class="container">
+    <!-- <div id="header">
+        <div class="container py-2">
             <div class="row">
-                <div class="col-md-1 py-3">
+                <div class="col-md-6">
                     <div class="brand">
                         <a href="index.html">
-                            <h3>Logo</h3>
+                            <img src="./assets/img/logo.jpg" >
                         </a>
                     </div>
                 </div>
                 <div class="col-md-9">
                     <p class="text-right py-3 ph-link1"> <span class="mr-3"><a href="tel:123-456-7890">123-456-7890</a></span>
                         <span class="item2"><a href="appointment">Book an Appointment</a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="header">
+        <div class="container py-2">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/img/logo.jpg" >
+                </div>
+                <div class="col-md-6 text-right">
+                    <p>
+                         Contact Info<br>
+                        <a href="tel:9090901234">9090901234</a>
+                        
                     </p>
                 </div>
             </div>
@@ -111,7 +128,7 @@
 
     <!-- start of content -->
 
-    <div class="container py-5">
+    <!-- <div class="container py-5">
         <div class="row">
             <div class="col-md-8">
                 <p class="mt-4 text-justify">Leukemia is a cancer that starts in the blood-forming cells of the bone
@@ -131,37 +148,37 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- end of content -->
 
     <!-- start of services -->
 
     <div class="container">
-        <p class="h3 mb-3">Our Services</p>
+        <p class="h3 mb-3 py-2">Our Services</p>
         <div class="card-deck">
             <div class="card">
                 <img src="assets/img/002-patient.svg" class="card-img-top p-3" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Title 1</h5>
+                    <h5 class="card-title text-center">Aaush Clinic</h5>
                 </div>
             </div>
             <div class="card">
                 <img src="assets/img/003-therapist.svg" class="card-img-top p-3" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Title 2</h5>
+                    <h5 class="card-title text-center">Aaush Hospital</h5>
                 </div>
             </div>
             <div class="card">
                 <img src="assets/img/002-patient.svg" class="card-img-top p-3" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Title 3</h5>
+                    <h5 class="card-title text-center">Aaush Diagnostic Center</h5>
                 </div>
             </div>
             <div class="card">
                 <img src="assets/img/003-therapist.svg" class="card-img-top p-3" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Title 4</h5>
+                    <h5 class="card-title text-center">Aaush Pharmaceutical</h5>
                 </div>
             </div>
         </div>
@@ -170,6 +187,7 @@
     <!-- end of services -->
 
     <!-- start of testimonials -->
+
     <div class="container mt-5 mb-3">
         <div class="row">
             <div class="col-md-6">
@@ -217,49 +235,51 @@
 
     <!-- start of footer -->
 
+    <div id="footer">
     <div class="mt-3 bg-custom text-light">
         <div class="container">
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-md-4">
                     <div class="py-5">
-                        <p class="h5 font-weight-bold">Contact</p>
-                        <p class="py-3 ph-link2"><a href="tel:123-456-7890"><i class="fa fa-phone" aria-hidden="true"></i>
-                            123-456-7890</a>
-                        </p>
+                       
+                        
+                          <address>
+                            <strong>Blog</strong><br>
+                            <!-- <a href="mailto:first.last@example.com">first.last@example.com</a> -->
+                          </address>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="py-5">
-                        <p class="h5 font-weight-bold">Address</p>
+                        <address>
+                            <strong>Address</strong><br>
+                            S2-S6 , Industrial Area,<br>
+                            Post Office –Kalyani , P. O-Kalyani , 
+                            Dist- Nodia, Pin- 741235,West Bengal, India.<br>
+                            <abbr title="Phone"></abbr> (123) 456-7890
+                          </address>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="py-5">
-                        <p class="h5 font-weight-bold">Social</p>
+                    <div class="p-5">
+                        <strong>Follow us</strong>
+                        <ul>
+                            <i class="fa fa-facebook" aria-hidden="true" ></i>
+                            <i class="fa fa-twitter px-3" aria-hidden="true"></i>
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                       </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
 
     <!-- end of footer -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- readmorebtn script -->
-    <script>
+    <!-- <script>
         function myFunction() {
             var dots = document.getElementById("dots");
             var moreText = document.getElementById("more");
@@ -275,7 +295,7 @@
                 moreText.style.display = "inline";
             }
         }
-    </script>
+    </script> -->
     <!-- readmorebtn script -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
