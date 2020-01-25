@@ -1,0 +1,152 @@
+/* reset */
+
+body {
+    margin:0px;
+    padding:0px;
+}
+
+/* header css */
+
+.header{
+    margin-top:1rem;
+}
+.item1{
+    margin-left: 0.3rem;
+}
+.item2{
+    margin-left: 1rem;
+    
+}
+
+/* header css */
+
+
+/* navbar css */
+.navbar{
+    
+    background-color:#00789c;
+    height: 45px;
+}
+.navigation a{
+   color: white;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    
+  }
+  .dropdown:hover>.dropdown {
+    display: block;
+    background-color:orange;
+    
+  }
+  .home{
+      margin-left:5.5rem;
+      padding-top: 0.5rem;
+  }
+  .dropdown-item{
+      color: #00789c !important;
+  }
+.cancer{
+    margin-left:0.3rem;
+    padding-top: 0.5rem;
+}
+.aboutus{
+    margin-left: 0.3rem;
+    padding-top: 0.5rem;
+}
+.service{
+    margin-left: 0.3rem;
+    padding-top: 0.5rem;
+}
+.news{
+    margin-left: 0.3rem;
+    padding-top: 0.5rem;
+}
+.contact{
+    margin-left: 0.3rem;
+    padding-top: 0.5rem;
+}
+.blog{
+    margin-left: 0.3rem;
+    padding-top: 0.5rem;
+}
+/* navbar css */
+
+/* slider css */
+.img1{
+    height:18rem;
+}
+.img2{
+    height:18rem;
+}
+.img3{
+    height:18rem;
+}
+.img4{
+    height:18rem;
+}
+/* slider css */
+
+
+/* content css */
+#myBtn{
+    margin-left:0.5rem;
+}
+.p1{
+    text-align: justify;
+    padding-top: 30px;
+}
+.imageroll{
+    width:245px;
+    height:245px;
+    margin-left:3rem;
+    
+}
+
+/* content css */
+
+/* services */
+.card-text{
+    width: auto;
+    margin-left: 1.5rem;
+    font-weight: bold;
+}
+.card-text4{
+    margin-left: 0.9rem;
+    font-weight: bold;
+}
+.card-text5{
+    margin-left: 0.7rem;
+    font-weight: bold;
+}
+/* services */
+
+/* Testimonial */
+.p2{
+    text-align: justify;
+    font-weight: 100px;
+    font-style: italic;
+    margin-left: 1rem;
+}
+.card-test{
+    border-radius: 15%;
+}
+.heading{
+    margin-left:1rem;
+}
+
+ 
+/* Testimonial */
+/* footer */
+.f1 {
+    margin: 0px;
+    padding: 0px;
+    background-color: #00789c;
+    height:min-content;
+    margin-top: 15px;
+}
+.p3{
+    font-size: small;
+    text-align: justify;
+}
+/* footer */
