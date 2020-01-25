@@ -9,7 +9,20 @@ body {
     background-color: #563D7C;
 }
 
-/* .btn-search:hover {
-    background-color: #FFE484;
-} */
+#more {display: none;}
 
+.ph-link1 a {
+    color: #563D7C !important;
+}
+
+.ph-link1 a:hover {
+    text-decoration: none;
+}
+
+.ph-link2 a {
+    color: #fff !important;
+}
+
+.ph-link2 a:hover {
+    text-decoration: none;
+}

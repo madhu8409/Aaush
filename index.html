@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="col-md-9">
-                    <p class="text-right py-3"> <span class="mr-3"><a href="tel:123-456-7890">123-456-7890</a></span>
+                    <p class="text-right py-3 ph-link1"> <span class="mr-3"><a href="tel:123-456-7890">123-456-7890</a></span>
                         <span class="item2"><a href="appointment">Book an Appointment</a></span>
                     </p>
                 </div>
@@ -46,48 +46,48 @@
         </button>
 
         <div class="container">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Home
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Aaush Clinic</a>
-                        <a class="dropdown-item" href="#">Aaush Hospital</a>
-                        <a class="dropdown-item" href="#">Aaush Diagnostic Center</a>
-                        <a class="dropdown-item" href="#">Aaush Pharmaceutical</a>
-                    </div>
-                </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Home
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Aaush Clinic</a>
+                            <a class="dropdown-item" href="#">Aaush Hospital</a>
+                            <a class="dropdown-item" href="#">Aaush Diagnostic Center</a>
+                            <a class="dropdown-item" href="#">Aaush Pharmaceutical</a>
+                        </div>
+                    </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbar" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Cancer
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">LEUKEMIA</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">News & Media</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-            </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbar" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Cancer
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">LEUKEMIA</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News & Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
     </nav>
     <!-- end of navbar -->
 
@@ -111,21 +111,34 @@
 
     <!-- start of content -->
 
-    <div class="container">
+    <div class="container py-5">
         <div class="row">
             <div class="col-md-8">
-                <p></p>
+                <p class="mt-4 text-justify">Leukemia is a cancer that starts in the blood-forming cells of the bone
+                    marrow. When one of these
+                    cells changes and becomes a leukemia cell, it no longer matures the way it should. marrow and crowd
+                    out normal cells. At some point, leukemia<span id="dots">...</span><span id="more"> cells leave the
+                        bone marrow and spill into the
+                        bloodstream, often causing the number of white blood cells (WBCs) in the blood to increase.
+                        Once in the blood, leukemia cells can spread to other organs, where they can keep other
+                        cells in the body from working properly.</span></p>
+
+                <button class="btn btn-dark" onclick="myFunction()" id="myBtn">Read more</button>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="text-center py-5">
+                    <img src="assets/img/circle.png" class="img-fluid w-50" />
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- end of content -->
-    
+
     <!-- start of services -->
 
-    <div class="container py-3">
-        <p class="h3 mb-3">Our Services</p> 
+    <div class="container">
+        <p class="h3 mb-3">Our Services</p>
         <div class="card-deck">
             <div class="card">
                 <img src="assets/img/002-patient.svg" class="card-img-top p-3" alt="...">
@@ -134,19 +147,19 @@
                 </div>
             </div>
             <div class="card">
-                <img src="assets/img/002-patient.svg" class="card-img-top p-3" alt="...">
+                <img src="assets/img/003-therapist.svg" class="card-img-top p-3" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-center">Title 2</h5>
                 </div>
             </div>
             <div class="card">
-                <img src="assets/img/003-therapist.svg" class="card-img-top p-3" alt="...">
+                <img src="assets/img/002-patient.svg" class="card-img-top p-3" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-center">Title 3</h5>
                 </div>
             </div>
             <div class="card">
-                <img src="assets/img/004-health.svg" class="card-img-top p-3" alt="...">
+                <img src="assets/img/003-therapist.svg" class="card-img-top p-3" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-center">Title 4</h5>
                 </div>
@@ -154,7 +167,82 @@
         </div>
     </div>
 
-    <!-- end of slider -->
+    <!-- end of services -->
+
+    <!-- start of testimonials -->
+    <div class="container mt-5 mb-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <p class="h3 m-4">Our Patients Speak</p>
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="10000">
+                                <p class="d-block w-100 mx-auto p-4">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem
+                                    Ipsum has been the industry's standards.</p>
+                                <p class="text-weight-bold ml-4"><strong>Curious MJ</strong></p>
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <p class="d-block w-100 mx-auto p-4">It is a long established fact that a reader will be
+                                    distracted by the readable
+                                    content of a page when looking at its layout.
+                                </p>
+                                <p class="text-weight-bold ml-4"><strong>Curious MJ</strong></p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="d-block w-100 mx-auto p-4">Contrary to popular belief, Lorem Ipsum is not
+                                    simply random text. It has roots in a
+                                    piece of classical Latin literature from 45 BC.</p>
+                                <p class="text-weight-bold ml-4"><strong>Curious MJ</strong></p>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleInterval" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end of testimonials -->
+
+    <!-- start of footer -->
+
+    <div class="mt-3 bg-custom text-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="py-5">
+                        <p class="h5 font-weight-bold">Contact</p>
+                        <p class="py-3 ph-link2"><a href="tel:123-456-7890"><i class="fa fa-phone" aria-hidden="true"></i>
+                            123-456-7890</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="py-5">
+                        <p class="h5 font-weight-bold">Address</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="py-5">
+                        <p class="h5 font-weight-bold">Social</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of footer -->
 
 
 
@@ -170,10 +258,25 @@
 
 
 
+    <!-- readmorebtn script -->
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
 
-
-
-
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+    <!-- readmorebtn script -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
