@@ -29,6 +29,10 @@ body {
 
 /* footer css */
 
+.padding-60{
+    padding: 60px 0px;
+}
+
 #footer{
     background: rgb(61, 51, 51);
     color: #fff;
